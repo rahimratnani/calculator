@@ -98,16 +98,17 @@ body {
 footer {
     background-color: #2C3E50;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 1rem 0;
+    height: 2.5rem;
 }
 
 footer p,a {
     color: #E9E9E9;
+    line-height: 2.5rem;
 }
 
 footer a:hover {
