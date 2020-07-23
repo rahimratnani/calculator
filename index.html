@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="calculator">
+        <div id="display-container">
+            <p id="display" class="js-display">0</p>
+        </div>
+        <div id="buttons">
+            <div class="row row-1">
+                <button id="clear" class="btn col-1 func js-clear">C</button>
+                <button id="back-space" class="btn col-2 func js-back-space"><i class="fas fa-backspace"></i></button>
+                <button id="percent" class="btn col-3 func js-percent"><i class="fas fa-percent"></i></button>
+                <button id="divide" class="btn col-4 func js-func"><i class="fas fa-divide"></i></button>
+            </div>
+            <div class="row row-2">
+                <button id="seven" class="btn col-1 js-number">7</button>
+                <button id="eight" class="btn col-2 js-number">8</button>
+                <button id="nine" class="btn col-3 js-number">9</button>
+                <button id="multiply" class="btn col-4 func js-func">×</button>
+            </div>
+            <div class="row row-3">
+                <button id="four" class="btn col-1 js-number">4</button>
+                <button id="five" class="btn col-2 js-number">5</button>
+                <button id="six" class="btn col-3 js-number">6</button>
+                <button id="minus" class="btn col-4 func js-func"><i class="fas fa-minus"></i></button>
+            </div>
+            <div class="row row-4">
+                <button id="one" class="btn col-1 js-number">1</button>
+                <button id="two" class="btn col-2 js-number">2</button>
+                <button id="three" class="btn col-3 js-number">3</button>
+                <button id="plus" class="btn col-4 func js-func"><i class="fas fa-plus"></i></button>
+            </div>
+            <div class="row row-5">
+                <button id="plus-minus" class="btn col-1 func js-plus-minus">+/-</button>
+                <button id="zero" class="btn col-2 js-number">0</button>
+                <button id="decimal" class="btn col-3 js-number">.</button>
+                <button id="equals" class="btn col-4 func js-equals"><i class="fas fa-equals"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>This project is a part of <a href="https://www.theodinproject.com/courses/web-development-101/lessons/calculator">The Odin Project curriculum</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
