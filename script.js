@@ -214,6 +214,7 @@ equals.addEventListener('click', () => {
     inputArray.splice(0, inputArray.length, tempResult);
     displayArray.splice(0, displayArray.length, tempResult);
     updateDisplay(displayArray);
+    displayArray.splice(0);
     tempInput.splice(0);
     tempInput.push(tempResult);
     enableDecimal();
